@@ -6,14 +6,13 @@
     <!--Parallax Section-->
     <div class="parallax-container">
       <div class="parallax">
-        <img src="#" alt="#">
+        <img src="#!" alt="#!">
       </div>
     </div>
     <div class="container">
         <h3 class="center">Top 5 Most Popular Games of 2017</h3>
         <br />
         <!--List of 10 popular games-->
-        <!--TODO: CREATE A SCRIPT TO UPDATE THE DUMMY VALUES-->
         <div class="row">
           <ul class="collection center">
             <li class="collection-item" id="item1">Alvin</li>
@@ -108,7 +107,22 @@
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col l3 offset-l1 m3 offset-m1 s4">
+          <a class="btn" onclick="Materialize.toast('Sixty-five percent of American households are home to someone who plays video games
+          regularly, and 67 percent of American households own a device used to play video games.', 4000)">Video Game Fact 1</a>
+        </div>
+        <div class="col l3 offset-l1  m3 offset-m1 s4">
+          <a class="btn" onclick="Materialize.toast('Fifty-three percent of the most frequent video game players report playing video games with others.', 4000)">Video Game Fact 2</a>
+        </div>
+        <div class="col l3 offset-l1  m3 offset-m1 s4">
+          <a class="btn" onclick="Materialize.toast('Seventy-four percent of PC/console VR headset owners use their device to play single player video games.', 4000)">Video Game Fact 3</a>
+        </div>
+      </div>
     </div>
+    <br />
   </main>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

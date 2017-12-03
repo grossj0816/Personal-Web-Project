@@ -18,6 +18,7 @@ echo
     <th>Open Time</th>
     <th>Close Time</th>
     <th>Address</th>
+    <th>Store Description</th>
   </tr>";
 
   echo "<tr>";
@@ -25,6 +26,7 @@ echo
   echo "<td>" . $row['OpenTime'] . "</td>";
   echo "<td>" . $row['CloseTime'] . "</td>";
   echo "<td>" . $row['Location'] . "</td>";
+  echo "<td>" . $row['StoreDesc'] . "</td>";
   echo "</tr>";
 
 

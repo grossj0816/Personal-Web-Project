@@ -30,7 +30,7 @@
         <div class="col l4 m6 s12">
           <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/office.jpg">
+                <img class="activator" src="imgs/card-images/destiny2.jpg">
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">Destiny 2<i class="material-icons right">more_vert</i></span>
@@ -46,7 +46,7 @@
         <div class="col l4 m6 s12">
           <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/office.jpg">
+                <img class="activator" src="imgs\card-images\tekken7.jpg">
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">Tekken 7<i class="material-icons right">more_vert</i></span>
@@ -62,7 +62,7 @@
         <div class="col l4 m6 s12">
           <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/office.jpg">
+                <img class="activator" src="imgs/card-images/mariokart8.jpg">
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">Mario Kart 8 Deluxe Ed.<i class="material-icons right">more_vert</i></span>
@@ -78,23 +78,7 @@
         <div class="col l4 m6 s12">
           <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/office.jpg">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Horizon Zero Dawn<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Horizon Zero Dawm<i class="material-icons right">close</i></span>
-                <p id="gameInfo4">Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
-          </div>
-        </div>
-        <!--Five-->
-        <div class="col l4 m6 s12">
-          <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/office.jpg">
+                <img class="activator" src="imgs/card-images/injustice2.jpg">
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">Injustice 2<i class="material-icons right">more_vert</i></span>
@@ -103,6 +87,22 @@
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Injustice 2<i class="material-icons right">close</i></span>
                 <p id="gameInfo5">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+          </div>
+        </div>
+        <!--Five-->
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <img class="activator" src="imgs/card-images/horizon.jpg">
+              <div class="card-image waves-effect waves-block waves-light">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Horizon Zero Dawn<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Horizon Zero Dawm<i class="material-icons right">close</i></span>
+                <p id="gameInfo4">Here is some more information about this product that is only revealed once clicked on.</p>
               </div>
           </div>
         </div>

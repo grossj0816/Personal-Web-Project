@@ -9,7 +9,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <h4>Search for Video Game Sotres near Hornell, NY</h4>
+      <h4>Search for Video Game Stores near Alfred, NY</h4>
     <br />
     <br />
     <br />
@@ -100,7 +100,7 @@
 
             total = numOfGames * gamePrice;
 
-            document.getElementById('calculate').innerHTML = total;
+            document.getElementById('calculate').innerHTML = "<h5>Your total cost is $" + total + ".00</h5>";
           }
           else
           {
@@ -146,12 +146,12 @@
 
           if (val1.value != "" && val2.value != "")
           {
-            numOfGames = parseInt(val1.value);
-            gamePrice = parseInt(val2.value);
+            n1 = parseInt(val1.value);
+            n2 = parseInt(val2.value);
 
             total = n1 * n2;
 
-            document.getElementById('total').innerHTML = total;
+            document.getElementById('total').innerHTML = "<h5>The product of the two numbers entered is " + total + "</h5>";
           }
           else
           {

@@ -37,20 +37,20 @@
                   <td>
                     <form action="../blog_list_update/index.php" method="post" id="blog_list_update">
                       <input type="hidden" name="god" value="<?php echo $indStmt['PostID'];?>">
-                      <a class="waves-effect waves-light btn"><input type="submit" value="Update"></a>
+                      <a class="waves-effect waves-light btn blue-grey darken-3"><input type="submit" value="Update"></a>
                     </form>
                   </td>
                   <td>
                     <form action="../blog_list_delete/index.php" method="post" id="blog_list_delete">
                       <input type="hidden" name="demon" value="<?php echo $indStmt['PostID'];?>">
-                      <a class="waves-effect waves-light btn"><input type="submit" value="Delete"></a>
+                      <a class="waves-effect waves-light btn blue-grey darken-3"><input type="submit" value="Delete"></a>
                     </form>
                   </td>
               </tr>
               <?php endforeach; ?>
             </table>
             <br />
-            <a class="waves-effect waves-light btn" href="../blog_list_add">Add a New Game Post!</a>
+            <a class="waves-effect waves-light btn blue-grey darken-3" href="../blog_list_add">Add a New Game Post!</a>
           </div>
       </div>
     </main>

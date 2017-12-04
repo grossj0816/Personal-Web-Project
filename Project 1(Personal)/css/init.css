@@ -1,3 +1,18 @@
 body{
-  background-color: #78909c;
+  background-color: #eeeeee;
+}
+
+h3,h4,h5{
+  font-weight: 300;
+  padding: 50px;
+}
+
+
+
+
+.brand-logo{
+  font-weight: 300;
+}
+.white-text{
+  font-weight: 300;
 }

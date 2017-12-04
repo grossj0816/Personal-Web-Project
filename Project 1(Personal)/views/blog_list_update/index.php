@@ -19,7 +19,7 @@ $stmts = $stmt->fetch();
   <main>
     <div class="container">
       <div class="row">
-        <h2>Let's update a post!!</h2>
+        <h3 class="center">Let's update a post!!</h3>
       </div>
       <div class="row">
         <form action="update_post.php" method="post">
@@ -27,7 +27,7 @@ $stmts = $stmt->fetch();
           <table>
             <tr>
               <td>
-                <label class="labelStyle">FirstName</label>
+                <label class="labelStyle">First Name</label>
               </td>
               <td>
                 <input type="text" name="god" value="<?php echo $stmts['FirstName']; ?>">
@@ -35,7 +35,7 @@ $stmts = $stmt->fetch();
             </tr>
             <tr>
               <td>
-                <label class="labelStyle">LastName</label>
+                <label class="labelStyle">Last Name</label>
               </td>
               <td>
                 <input type="text" name="lion" value="<?php echo $stmts['LastName']; ?>">
@@ -53,7 +53,7 @@ $stmts = $stmt->fetch();
               <td>
                 <label class="labelStyle">Favorite Game Description</label>
               </td>
-              <td>  
+              <td>
                 <input type="text" name="bunny" value="<?php echo $stmts['FavGameDesc']; ?>">
               </td>
             </tr>
@@ -62,7 +62,7 @@ $stmts = $stmt->fetch();
                 <label class="labelStyle">Would you like to delete this post?</label>
               </td>
               <td>
-                <a class="waves-effect waves-light btn"><input type="submit" value="Yes"></a 7Y>
+                <a class="waves-effect waves-light btn blue-grey darken-3"><input type="submit" value="Yes"></a 7Y>
               </td>
             </tr>
           </table>

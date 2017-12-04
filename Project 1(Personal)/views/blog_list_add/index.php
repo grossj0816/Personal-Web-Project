@@ -4,33 +4,33 @@
   <main>
     <div class="container">
       <div class="row">
-        <h2 class="center">Let's add a Post!!!!!</h2>
+        <h3 class="center">Let's add a Post!!!!!</h3>
       </div>
       <div class="row">
         <form action="add_post.php" method="post">
           <table>
             <tr>
               <td>
-                <input type="text" name="dragon" placeholder="First Name">
+                <input type="text" name="dragon" value="First Name">
               </td>
             </tr>
             <tr>
               <td>
-                <input type="text" name="tiger" placeholder="Last Name">
+                <input type="text" name="tiger" value="Last Name">
               </td>
             </tr>
             <tr>
               <td>
-                <input type="text" name="wolf" placeholder="Console">
+                <input type="text" name="wolf" value="Console">
               </td>
             </tr>
             <tr>
               <td>
-                <input type="text" name="lion" placeholder="Favorite Game and Why?">
+                <input type="text" name="lion" value="Favorite Game and Why?">
               </td>
             </tr>
           </table>
-          <a class="waves-effect waves-light btn"><input type="submit" name="Add Post"></a>
+          <a class="waves-effect waves-light btn blue-grey darken-3"><input type="submit" name="Add Post"></a>
         </form>
       </div>
     </div>

@@ -7,12 +7,11 @@
       <img src="../../imgs/parallax-images/search.jpg" alt="Search">
     </div>
   </div>
+  <br />
+  <br />
   <div class="container">
     <div class="row">
-      <h4>Search for Video Game Stores near Alfred, NY</h4>
-    <br />
-    <br />
-    <br />
+      <h4 class="center">Search for Video Game Stores near Alfred, NY</h4>
     <script>
       function showSellers(seller) {
         if (seller == "")
@@ -57,22 +56,22 @@
     <br />
     <div class="row">
       <div class="col l5 m12 s12">
-        <h5 class="center">Calculate the amount you will spend on video games?</h5>
+        <h5 class="center">Calculate the amount you will spend on games?</h5>
         <form id="getGames">
           <table>
             <tr>
               <td>
-                <input type="text" name="numOfGames" id="numOfGames" placeholder="Number of Games">
+                <input type="text" name="numOfGames" id="numOfGames" value="Number of Games">
               </td>
             </tr>
             <tr>
               <td>
-                <input type="text" name="gamePrice" id="gamePrice" placeholder="Price of an Individual Game">
+                <input type="text" name="gamePrice" id="gamePrice" value="Price of an Individual Game">
               </td>
             </tr>
             <tr>
               <td>
-                <button type="button" class="waves-effect waves-light btn" value="Calculate Price" onclick="calculatePrice()">Calculate Price</button>
+                <button type="button" class="waves-effect waves-light btn blue-grey darken-3" value="Calculate Price" onclick="calculatePrice()">Calculate Price</button>
                 <!-- <input value="Calculate Price" onclick="calculatePrice()"> -->
               </td>
             </tr>
@@ -112,17 +111,17 @@
           <table>
             <tr>
               <td>
-                <input type="text" name="num1" id="num1" placeholder="Number One">
+                <input type="text" name="num1" id="num1" value="Number One">
               </td>
             </tr>
             <tr>
               <td>
-                <input type="text" name="num2" id="num2" placeholder="Number Two">
+                <input type="text" name="num2" id="num2" value="Number Two">
               </td>
             </tr>
             <tr>
               <td>
-                <button type="button" class="waves-effect waves-light btn" value="Calculate Total" onclick="calculateTotal()">Calculate Total</button>
+                <button type="button" class="waves-effect waves-light btn blue-grey darken-3" value="Calculate Total" onclick="calculateTotal()">Calculate Total</button>
               </td>
             </tr>
           </table>

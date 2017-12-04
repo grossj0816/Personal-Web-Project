@@ -11,37 +11,26 @@
           <table>
             <tr>
               <td>
-                <label>First Name</label>
-                <input type="text" name="dragon">
+                <input type="text" name="dragon" placeholder="First Name">
               </td>
             </tr>
             <tr>
               <td>
-                <label>Last Name</label>
-                <input type="text" name="tiger">
+                <input type="text" name="tiger" placeholder="Last Name">
               </td>
             </tr>
             <tr>
               <td>
-                <label>Console</label>
-                <input type="text" name="wolf">
+                <input type="text" name="wolf" placeholder="Console">
               </td>
             </tr>
             <tr>
               <td>
-                <label>Favorite Game and Why?</label>
-                <input type="text" name="lion">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label>Are you sure that you want to add a post?</label>
-              </td>
-              <td>
-                <a class="waves-effect waves-light btn"><input type="submit" name="Add Post"></a>
+                <input type="text" name="lion" placeholder="Favorite Game and Why?">
               </td>
             </tr>
           </table>
+          <a class="waves-effect waves-light btn"><input type="submit" name="Add Post"></a>
         </form>
       </div>
     </div>

@@ -4,7 +4,7 @@
   <!--Parallax Section -->
   <div class="parallax-container">
     <div class="parallax">
-      <img src="#" alt="#">
+      <img src="../../imgs/parallax-images/search.jpg" alt="Search">
     </div>
   </div>
   <div class="container">
@@ -62,14 +62,12 @@
           <table>
             <tr>
               <td>
-                <label>Number of Games</label>
-                <input type="text" name="numOfGames" id="numOfGames">
+                <input type="text" name="numOfGames" id="numOfGames" placeholder="Number of Games">
               </td>
             </tr>
             <tr>
               <td>
-                <label>Price of an Individual Game</label>
-                <input type="text" name="gamePrice" id="gamePrice">
+                <input type="text" name="gamePrice" id="gamePrice" placeholder="Price of an Individual Game">
               </td>
             </tr>
             <tr>
@@ -114,14 +112,12 @@
           <table>
             <tr>
               <td>
-                <label>Number One</label>
-                <input type="text" name="num1" id="num1">
+                <input type="text" name="num1" id="num1" placeholder="Number One">
               </td>
             </tr>
             <tr>
               <td>
-                <label>Number Two</label>
-                <input type="text" name="num2" id="num2">
+                <input type="text" name="num2" id="num2" placeholder="Number Two">
               </td>
             </tr>
             <tr>

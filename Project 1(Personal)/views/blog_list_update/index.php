@@ -27,7 +27,7 @@ $stmts = $stmt->fetch();
           <table>
             <tr>
               <td>
-                <label>FirstName</label>
+                <label class="labelStyle">FirstName</label>
               </td>
               <td>
                 <input type="text" name="god" value="<?php echo $stmts['FirstName']; ?>">
@@ -35,7 +35,7 @@ $stmts = $stmt->fetch();
             </tr>
             <tr>
               <td>
-                <label>LastName</label>
+                <label class="labelStyle">LastName</label>
               </td>
               <td>
                 <input type="text" name="lion" value="<?php echo $stmts['LastName']; ?>">
@@ -43,7 +43,7 @@ $stmts = $stmt->fetch();
             </tr>
             <tr>
               <td>
-                <label>Console</label>
+                <label class="labelStyle">Console</label>
               </td>
               <td>
                 <input type="text" name="tiger" value="<?php echo $stmts['Console']; ?>">
@@ -51,15 +51,15 @@ $stmts = $stmt->fetch();
             </tr>
             <tr>
               <td>
-                <label>Favorite Game Description</label>
+                <label class="labelStyle">Favorite Game Description</label>
               </td>
-              <td>
+              <td>  
                 <input type="text" name="bunny" value="<?php echo $stmts['FavGameDesc']; ?>">
               </td>
             </tr>
             <tr>
               <td>
-                <label>Would you like to delete this post?</label>
+                <label class="labelStyle">Would you like to delete this post?</label>
               </td>
               <td>
                 <a class="waves-effect waves-light btn"><input type="submit" value="Yes"></a 7Y>

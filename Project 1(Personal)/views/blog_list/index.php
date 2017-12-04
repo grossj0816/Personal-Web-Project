@@ -13,7 +13,7 @@
       <!--Parallax Section-->
       <div class="parallax-container">
         <div class="parallax">
-          <img src="#" alt="#">
+          <img src="../../imgs/parallax-images/generations.jpg" alt="genereations of controllers">
         </div>
       </div>
       <!--Container-->
@@ -21,8 +21,8 @@
           <div class="row center">
             <table id="tableContents" class="bordered">
               <tr>
-                <th>FirstName</th>
-                <th>LastName</th>
+                <th>First Name</th>
+                <th>Last Name</th>
                 <th>Console</th>
                 <th>Favorite Game and Why?</th>
                 <th>&nbsp;</th>
@@ -50,7 +50,7 @@
               <?php endforeach; ?>
             </table>
             <br />
-            <a href="../blog_list_add">Add a New Game Post!</a>
+            <a class="waves-effect waves-light btn" href="../blog_list_add">Add a New Game Post!</a>
           </div>
       </div>
     </main>

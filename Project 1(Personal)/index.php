@@ -6,7 +6,7 @@
     <!--Parallax Section-->
     <div class="parallax-container">
       <div class="parallax">
-        <img src="#!" alt="#!">
+        <img src="imgs/parallax-images/ps4vsxboxone.jpg" alt="Xbox VS PlayStation">
       </div>
     </div>
     <div class="container">
@@ -15,11 +15,11 @@
         <!--List of 10 popular games-->
         <div class="row">
           <ul class="collection center">
-            <li class="collection-item" id="item1">Alvin</li>
-            <li class="collection-item" id="item2">Alvin</li>
-            <li class="collection-item" id="item3">Alvin</li>
-            <li class="collection-item" id="item4">Alvin</li>
-            <li class="collection-item" id="item5">Alvin</li>
+            <li class="collection-item blue-grey lighten-1" id="item1">Alvin</li>
+            <li class="collection-item blue-grey lighten-1" id="item2">Alvin</li>
+            <li class="collection-item blue-grey lighten-1" id="item3">Alvin</li>
+            <li class="collection-item blue-grey lighten-1" id="item4">Alvin</li>
+            <li class="collection-item blue-grey lighten-1" id="item5">Alvin</li>
           </ul>
         </div>
       <br />
@@ -32,9 +32,9 @@
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="imgs/card-images/destiny2.jpg">
               </div>
-              <div class="card-content">
+              <div class="card-content blue-grey darken-3">
                 <span class="card-title activator grey-text text-darken-4">Destiny 2<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
+                <p><a href="#">Buy Destiny 2</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Destiny 2<i class="material-icons right">close</i></span>
@@ -48,9 +48,9 @@
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="imgs\card-images\tekken7.jpg">
               </div>
-              <div class="card-content">
+              <div class="card-content blue-grey darken-3">
                 <span class="card-title activator grey-text text-darken-4">Tekken 7<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
+                <p><a href="#">Buy Tekken 7</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Tekken 7<i class="material-icons right">close</i></span>
@@ -64,9 +64,9 @@
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="imgs/card-images/mariokart8.jpg">
               </div>
-              <div class="card-content">
+              <div class="card-content blue-grey darken-3">
                 <span class="card-title activator grey-text text-darken-4">Mario Kart 8 Deluxe Ed.<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
+                <p><a href="#">Buy Mario Kart 8 Deluxe Ed.</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Mario Kart 8 Deluxe Ed.<i class="material-icons right">close</i></span>
@@ -80,9 +80,9 @@
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="imgs/card-images/injustice2.jpg">
               </div>
-              <div class="card-content">
+              <div class="card-content blue-grey darken-3">
                 <span class="card-title activator grey-text text-darken-4">Injustice 2<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
+                <p><a href="#">Buy Injustice 2</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Injustice 2<i class="material-icons right">close</i></span>
@@ -91,14 +91,15 @@
           </div>
         </div>
         <!--Five-->
+        <!-- TODO: FIND A GOOD IMAGE FOR THIS CARD -->
         <div class="col l4 m6 s12">
           <div class="card">
-            <img class="activator" src="imgs/card-images/horizon.jpg">
+            <img class="activator" src="imgs/card-images/horizon.png">
               <div class="card-image waves-effect waves-block waves-light">
               </div>
-              <div class="card-content">
+              <div class="card-content blue-grey darken-3">
                 <span class="card-title activator grey-text text-darken-4">Horizon Zero Dawn<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
+                <p><a href="#">Buy Horizon Zero Dawn</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Horizon Zero Dawm<i class="material-icons right">close</i></span>
@@ -110,9 +111,9 @@
       <br />
       <br />
       <div class="row">
+        <!-- TODO: FIX THE ISSUE WITH THIS TOAST NOT WORKING -->
         <div class="col l3 offset-l1 m3 offset-m1 s4">
-          <a class="btn" onclick="Materialize.toast('Sixty-five percent of American households are home to someone who plays video games
-          regularly, and 67 percent of American households own a device used to play video games.', 4000)">Video Game Fact 1</a>
+          <a class="btn" onclick="Materialize.toast('Sixty-five percent of American households are home to someone who plays video games regularly..', 4000)">Video Game Fact 1</a>
         </div>
         <div class="col l3 offset-l1  m3 offset-m1 s4">
           <a class="btn" onclick="Materialize.toast('Fifty-three percent of the most frequent video game players report playing video games with others.', 4000)">Video Game Fact 2</a>

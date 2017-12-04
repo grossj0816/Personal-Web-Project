@@ -27,27 +27,37 @@ $stmts = $stmt->fetch();
           <table>
             <tr>
               <td class="delValues">
-               <?php echo "First Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" . $stmts['FirstName']; ?>
+               <label class="labelStyle">First Name</label>
+               <br />
+               <?php echo  $stmts['FirstName']; ?>
               </td>
             </tr>
             <tr>
               <td class="delValues">
-                <?php echo "Last Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" . $stmts['LastName']; ?>
+                <label class="labelStyle">Last Name</label>
+                <br />
+                <?php echo $stmts['LastName']; ?>
               </td>
             </tr>
             <tr>
               <td class="delValues">
-                <?php echo "Console: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" . $stmts['Console']; ?>
+                <label class="labelStyle">Console</label>
+                <br />
+                <?php echo  $stmts['Console']; ?>
               </td>
             </tr>
             <tr>
               <td class="delValues">
-                <?php echo "Favorite Game: &nbsp;&nbsp;&nbsp;&nbsp;" . $stmts['FavGameDesc']; ?>
+                <label class="labelStyle">Favorite Game and Why?</label>
+                <br />
+                <?php echo  $stmts['FavGameDesc']; ?>
               </td>
             </tr>
             <tr>
               <td class="delValues">
-                <a class="waves-effect waves-light btn blue-grey darken-3"><input type="submit" value="Yes"></a 7Y>
+                <label class="labelStyle">Would you like to update this post?</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="waves-effect waves-light btn blue-grey darken-3"><input type="submit" value="Yes"></a>
               </td>
             </tr>
           </table>

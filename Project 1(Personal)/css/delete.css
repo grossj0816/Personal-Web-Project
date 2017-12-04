@@ -4,6 +4,11 @@ h2{
 }
 
 
+.labelStyle{
+  color: #000000;
+  font-size: 16px;
+}
+
 .delValues{
-  padding-left: 350px;
+  padding-left: 325px;
 }

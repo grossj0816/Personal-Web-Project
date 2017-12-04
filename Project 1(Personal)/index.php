@@ -48,7 +48,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">Tekken 7<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">Buy Tekken 7</a></p>
+                <p><a href="http://tk7.tekken.com/">Buy Tekken 7</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Tekken 7<i class="material-icons right">close</i></span>
@@ -64,7 +64,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">Mario Kart 8 Deluxe Ed.<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">Buy Mario Kart 8 Deluxe Ed.</a></p>
+                <p><a href="https://www.nintendo.com/games/detail/mario-kart-8-deluxe-switch">Buy Mario Kart 8 Deluxe Ed.</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Mario Kart 8 Deluxe Ed.<i class="material-icons right">close</i></span>

@@ -8,23 +8,25 @@ $val5 = trim(filter_input(INPUT_POST, 'bunny', FILTER_SANITIZE_STRING));
 
 if (empty($val2) || empty($val3) || empty($val4) || empty($val5))
 {
-  $error = "A field value is empty!!!!!!";
+  include '../errors/index.php';
 }
+else
+{
+  require_once ('../../models/database.php');
 
-require_once ('../../models/database.php');
+  $stmt = $db->prepare("UPDATE userposts
+    SET FirstName = :fname, LastName = :lname, Console = :console, FavGameDesc = :fgdesc
+     WHERE PostID = :v1");
 
-$stmt = $db->prepare("UPDATE userposts
-  SET FirstName = :fname, LastName = :lname, Console = :console, FavGameDesc = :fgdesc
-   WHERE PostID = :v1");
+  $stmt->bindValue(':v1', $val1);
+  $stmt->bindValue(':fname', $val2);
+  $stmt->bindValue(':lname', $val3);
+  $stmt->bindValue(':console', $val4);
+  $stmt->bindValue(':fgdesc', $val5);
 
-$stmt->bindValue(':v1', $val1);
-$stmt->bindValue(':fname', $val2);
-$stmt->bindValue(':lname', $val3);
-$stmt->bindValue(':console', $val4);
-$stmt->bindValue(':fgdesc', $val5);
+  $stmt->execute();
 
-$stmt->execute();
-
-header("Location: ../blog_list");
+  header("Location: ../blog_list");
+}
 
 ?>

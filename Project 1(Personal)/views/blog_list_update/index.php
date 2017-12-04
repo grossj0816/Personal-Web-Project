@@ -28,40 +28,31 @@ $stmts = $stmt->fetch();
             <tr>
               <td>
                 <label class="labelStyle">First Name</label>
-              </td>
-              <td>
                 <input type="text" name="god" value="<?php echo $stmts['FirstName']; ?>">
               </td>
             </tr>
             <tr>
               <td>
                 <label class="labelStyle">Last Name</label>
-              </td>
-              <td>
                 <input type="text" name="lion" value="<?php echo $stmts['LastName']; ?>">
               </td>
             </tr>
             <tr>
               <td>
                 <label class="labelStyle">Console</label>
-              </td>
-              <td>
                 <input type="text" name="tiger" value="<?php echo $stmts['Console']; ?>">
               </td>
             </tr>
             <tr>
               <td>
-                <label class="labelStyle">Favorite Game Description</label>
-              </td>
-              <td>
+                <label class="labelStyle">Favorite Game and Why?</label>
                 <input type="text" name="bunny" value="<?php echo $stmts['FavGameDesc']; ?>">
               </td>
             </tr>
             <tr>
               <td>
-                <label class="labelStyle">Would you like to delete this post?</label>
-              </td>
-              <td>
+                <label class="labelStyle">Would you like to update this post?</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 <a class="waves-effect waves-light btn blue-grey darken-3"><input type="submit" value="Yes"></a 7Y>
               </td>
             </tr>

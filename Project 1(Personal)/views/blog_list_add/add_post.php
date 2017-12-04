@@ -7,8 +7,10 @@ $val4 = trim(filter_input(INPUT_POST, 'lion', FILTER_SANITIZE_STRING));
 
 if (empty($val1) || empty($val2) || empty($val3) || empty($val4))
 {
-  $error = "A field value is empty!!!!!!";
+  include '../errors/index.php';
 }
+else
+{
   require_once '../../models/database.php';
 
   $stmt = $db->prepare("INSERT INTO userposts (FirstName, LastName, Console, FavGameDesc)
@@ -24,6 +26,9 @@ if (empty($val1) || empty($val2) || empty($val3) || empty($val4))
 
 
   header("Location: ../blog_list");
+
+}
+
 
 
 ?>

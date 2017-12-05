@@ -19,6 +19,8 @@
       <!--Container-->
       <div class="container">
           <div class="row center">
+            <h3 class="center">Game Post
+            </h3>
             <table id="tableContents" class="bordered">
               <tr>
                 <th>First Name</th>
